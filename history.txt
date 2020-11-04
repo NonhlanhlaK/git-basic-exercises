@@ -1,0 +1,398 @@
+    1  whoami
+    2  ¾whoami
+    3  whoami
+    4  ls
+    5  touch test.txt
+    6  ls
+    7  touch index.html script.js style.css
+    8  ls
+    9  pwd
+   10  ls
+   11  test 
+   12  pwd
+   13  ls
+   14  cd..
+   15  cd ..
+   16  ls
+   17  pwd
+   18  cd Test.txt
+   19  touch test.txt
+   20  test
+   21  ls
+   22  mkdir test
+   23  whoami
+   24  cd
+   25  mkdir test
+   26  ls
+   27  pwd
+   28  cd test
+   29  touch test.txt
+   30  ls
+   31  cd
+   32  rm test
+   33  rmdir test
+   34  rm text.txt
+   35  cd test
+   36  ls
+   37  rm test.txt
+   38  ls
+   39  cd
+   40  rmdir test
+   41  cd test
+   42  cd
+   43  ls~/.ssh/id_rsa.pub
+   44  -C khumalononhlanhla58@gmail.com
+   45  ssh-keygen -C khumalononhlanhla58@gmail.com
+   46  cat ~/.ssh/id_rsa.pub
+   47  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCn0EevgVj054+tdK2WIySXPHm9XvVVwmybr5K4i2SHTJZAqFxtsMMfL1zTXbV4/mZ+C3zsr9pYlhvX3mqBPJ68Hc45uEf2xz+3H8mT5sipwsofTFryi3VGwAyz3/Kk18jvr/rSoGOPlSvWqrKBuvruVKwHtBaoEqvsGZJcY7EwVj/Vgq9UScNNa6RLBoCdGWhFr3klQFHdqtaEPlnyjxEnDx+Vx0Uxp5abZLuUT6QuvTvsgy9hxa7SrG6R60MAnY7x26FPM2tUEvNVr0p813IPyNJKW/O3RjNSxawyAbBpOJf4N17EW7vNIFZPY9GP5Z5UV71PyYa9s2IGEGfH8K4JRexPj4YFJAOsRAFKHk4DdgNwS3gLlo+JXx6/hNys6gbV5E0txAi408cfBEDqRgvkhMoeCzxKEx+tClc6fBZqec4VOxYxpI+oZ3k8UpB4y1dVYKpcVljkSz8Snn1PF+bYQmecNvfCdd8hOv62PLtyYNuvSyKRaULU8D0+M2FAz50= khumalononhlanhla58@gmail.com
+   48  $ ssh -T git@github.com
+   49  # Attempts to ssh to GitHub
+   50  ssh -T git@github.com
+   51  git--version
+   52  git --version
+   53  git --global user.name "Nonhlanhla Khumalo"
+   54  git config --global user.name "Nonhlanhla Khumalo"
+   55  git config --global user.email "Khumalononhlanhla58@gmail.com"
+   56  git config --list
+   57  git clone git@github.com:NonhlanhlaK/git_test.git
+   58  cd git_test
+   59  git remote -v
+   60  touch README.md
+   61  git status
+   62  git add README.md
+   63  git status
+   64  git commit -m "Add README.md"
+   65  git status
+   66  git log
+   67  touch hello_world.txt
+   68  git status
+   69  git log
+   70  ls
+   71  git clone git@github.com:NonhlanhlaK/git_test
+   72  ls
+   73  rm git_test
+   74  cd git_test
+   75  rmdir git_test
+   76  cd git_test
+   77  rm git_test
+   78  rmdir git_test/git_test
+   79  cd
+   80  ls
+   81  cd git_test
+   82  ls
+   83  rm git_test
+   84  rmdir git_test
+   85  cd git_test
+   86  ls
+   87  rmdir git_test/git_test
+   88  rm git_test/git_test
+   89  rmdir git_test
+   90  cd
+   91  ls
+   92  rm git_test
+   93  rmdir git_test
+   94  cd git_test
+   95  ls
+   96  rm hello_world.txt
+   97  rm README.md
+   98  ls
+   99  rmdir git_test
+  100  cd git_test
+  101  rmdir git_test/git_test
+  102  cd git_test
+  103  cd
+  104  ls
+  105  rmdir git_test
+  106  rm rf git_test
+  107  rm -rf git_test
+  108  ls
+  109  git clone git@github.com:NonhlanhlaK/git_test.git
+  110  cd git_test
+  111  touch README.md
+  112  ls
+  113  git status
+  114  git add README.md
+  115  git status
+  116  git commit -m "add README.md"
+  117  git status
+  118  git log
+  119  touch hello_world.txt
+  120  ls
+  121  git status
+  122  ls
+  123  echo "# git_test" >> README.md
+  124  git init
+  125  git add README.md
+  126  git commit -m "first commit"
+  127  git remote add origin git@github.com:NonhlanhlaK/git_test.git
+  128  git push -u origin master
+  129  ls
+  130  git clone git@github.com:NonhlanhlaK/git_test.git
+  131  ls
+  132  cd git_test
+  133  ls
+  134  rm hello_world.txt
+  135  ls
+  136  rm README.md
+  137  ls
+  138  rmdir git_test
+  139  rm -rf git_test
+  140  cd
+  141  rm -rf git_test
+  142  ls
+  143  git clone git@github.com:NonhlanhlaK/git_test.git
+  144  cd git_test
+  145  touch README.md
+  146  ls
+  147  git status
+  148  git add README.md
+  149  git status
+  150  git commit -m "add README.md"
+  151  git status
+  152  git log
+  153  touch hello_world.txt
+  154  ls
+  155  git status
+  156  git log
+  157  git status
+  158  git log
+  159  ls
+  160  git status
+  161  git test
+  162  git status
+  163  git add README.md
+  164  git status
+  165  git rm README.md
+  166  git status
+  167  ls
+  168  git log
+  169  git status
+  170  touch README.md
+  171  ls
+  172  git status
+  173  git commit -m add README.md
+  174  git log
+  175  git staus
+  176  git status
+  177  git add README.md
+  178  git status
+  179  git log
+  180  git staus
+  181  git status
+  182  git add README.md
+  183  git status
+  184  git commit -m "add README.md"
+  185  git log
+  186  cd git_test
+  187  cd
+  188  ls
+  189  cd git_test
+  190  ls-a
+  191  ls - a
+  192  ls -a
+  193  cd README.md
+  194  cd
+  195  ls
+  196  rm -rf git_test
+  197  ls
+  198  rm -rf git_test-1
+  199  ls
+  200  git clone git@github.com:NonhlanhlaK/git_test.git
+  201  touch README.md
+  202  git status
+  203  cd git_test
+  204  touch README.md
+  205  git status
+  206  git add README.md
+  207  git staus
+  208  git status
+  209  git commit -m "add README.md"
+  210  git log
+  211  touch hello_world.txt
+  212  git status
+  213  git clone git@github.com:NonhlanhlaK/git_test.git
+  214  cd git_test
+  215  ls
+  216  rm README.md
+  217  rm hello_world.txt
+  218  ls
+  219  rmdir git_test
+  220  rm -r git_test
+  221  cd
+  222  rm -r git_test
+  223  rm -rf git_test
+  224  ls
+  225  cd git_test
+  226  git clone git@github.com:NonhlanhlaK/git_test.git
+  227  cd git_test
+  228  git status
+  229  touch hello_world.txt
+  230  git status
+  231  cd
+  232  rm -rf git_test
+  233  cd git_test
+  234  git clone git@github.com:NonhlanhlaK/git_test.git
+  235  cd git_test
+  236  git status
+  237  touch README.md
+  238  git status
+  239  cd Desktop
+  240  Desktop
+  241  cd
+  242  ls
+  243  pwd
+  244  ls
+  245  ls /
+  246  pwd
+  247  cd bin
+  248  cd home
+  249  cd /home/nonhlanhla
+  250  cd nonhlanhla
+  251  mkdir learning_unix
+  252  cd learning_unix
+  253  ..
+  254  cd /home/nonhlanhla
+  255  ls
+  256  ls /
+  257  cd learning_unix
+  258  cd ..
+  259  cd /home/nonhlanhla
+  260  cd/bin
+  261  cd/learning_unix
+  262  cd /learning_unix
+  263  cd learning_unix
+  264  cd /tmp
+  265  cd /home/nonhlanhla
+  266  ls
+  267  cd
+  268  cd ~
+  269  mkdir command_line_course
+  270  mkdir linux_bootcamp
+  271  ls
+  272  cd learning_unix
+  273  mkdir -p outer_directory/inner_directory
+  274  ls
+  275  cd Outer_directory
+  276  cd outer_directory
+  277  ls
+  278  cd ..
+  279  cd/..
+  280  cd ~
+  281  cd/outer_directory
+  282  cd/tmp
+  283  cd /outer_directory
+  284  cd /tmp
+  285  cd ~
+  286  cd /learning_unix
+  287  cd learning_unix
+  288  cd /outer_directory
+  289  ls -l
+  290  ls -R
+  291  ls -l -t -r
+  292  ls -lh
+  293  man
+  294  man man
+  295  cd ~
+  296  ls 
+  297  rmdir git_test
+  298  cd git_test
+  299  ls
+  300  rm README.md
+  301  rm hello_world.txt
+  302  cd ~
+  303  rmdir git_test
+  304  cd git_test
+  305  ls
+  306  rmdir git_test
+  307  rm -rf git_test
+  308  cd ~ 
+  309  rm -rf git_test
+  310  ls
+  311  rm README.md
+  312  rm index.html
+  313  rm script.js
+  314  rm style.css
+  315  rm test.txt
+  316  rmdir command_line_course
+  317  rmdir learning_unix
+  318  rmdir linux_bootcamp
+  319  ls
+  320  cd learning_unix/
+  321  Code
+  322  ls
+  323  cd Spoon-Knife
+  324  code
+  325  cd ..
+  326  ls
+  327  code Spoon-Knife
+  328  cd Spoon-Knife
+  329  git status
+  330  git add index.html
+  331  git status
+  332  git commit -m 'username added'
+  333  git push
+  334  cd Â¬
+  335  cd ..
+  336  cd /home/nonhlanhla
+  337  mkdir git-basic-exercises
+  338  ls
+  339  cd git-basic-exercises/
+  340  ls
+  341  ls -a
+  342  git init
+  343  ls -a
+  344  git status
+  345  touch.README.md
+  346  ls -a
+  347  touch README.md
+  348  ls -a
+  349  git log
+  350  git add README.md
+  351  git status 
+  352  git rm --cached README.md
+  353  git status
+  354  git add README.md 
+  355  git status 
+  356  git commit -m 'initial commit'
+  357  git log
+  358  q
+  359  nano README.md 
+  360  cat README.md 
+  361  git status 
+  362  git commit -m 'second commit'
+  363  git status 
+  364  git add README.md 
+  365  git status
+  366  git commit -m 'second commit'
+  367  nano README.md 
+  368  git status
+  369  git add README.md 
+  370  git status 
+  371  git commit -m 'third commit'
+  372  git log
+  373  q
+  374  git checkout 9d42d77d208b7fa172d6767cd8b568bf421fe1bb
+  375  cat README.md
+  376  git checkout master
+  377  cat README.md 
+  378  git branch
+  379  git branch milkshake-flavours
+  380  git branch
+  381  git checkout milkshake-flavours
+  382  git branch
+  383  nano milkshakes.md
+  384  git status
+  385  git add milkshakes.md 
+  386  git status
+  387  git commit -m 'added initial flavours'
+  388  git log
+  389  checkout master
+  390  git checkout master
+  391  git branch
+  392  git branch history
+  393  git branch
+  394  git checkout history
+  395  git log
+  396  git branch
+  397  hitory > history.txt
+  398  history > history.txt
