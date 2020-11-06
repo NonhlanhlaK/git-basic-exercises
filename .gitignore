@@ -1,3 +1,5 @@
+# ignore ignore-me.db
+**ignore-me.db
 
-ignore-me.db
-large-directory-that-should-be-local-only
+# ignore large-directory-that-should-be-locao-only
+/large-directory-that-should-be-local-only
